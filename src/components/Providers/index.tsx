@@ -4,7 +4,7 @@ import {ThemeProvider} from "styled-components";
 
 import {ProvidersProps} from "./types.ts";
 
-import {darkTheme, lightTheme} from "@/constants/theme.ts";
+import {lightTheme} from "@/constants/theme.ts";
 import {useAppSelector} from "@/hooks/redux-hooks.ts";
 import {persistor, store} from "@/store";
 
